@@ -20,13 +20,15 @@ const Body = () => {
         <Gallery />
         <Location />
         <Virtualsite />
-        <About />
         <Footer />
         </div>
     <div style={{width:"22%",background:"white",float:"Right",height:"100vh",position:"fixed",right:"0",marginTop:"-80px",padding:"10px"}} className='sidebar'>
-      <div style={{display:"flex",marginLeft:"10px"}}>
-      <div style={{background:"#434343",width:"45%",height:"40px",margin:"0px",borderBottomLeftRadius:"30px",borderRight:"1px solid white",color:"white",padding:"5px"}}>Organize Site Visit</div>
-      <div style={{background:"#434343",width:"45%",height:"40px",margin:"0px",borderBottomRightRadius:"30px",color:"white",padding:"5px"}}>WhatsApp</div>
+      <div style={{display:"flex",marginLeft:"0px"}}>
+      <div style={{background:"#434343",width:"55%",height:"55px",margin:"0px",borderBottomLeftRadius:"30px",borderRight:"1px solid white",color:"white",padding:"5px",display:"flex"}}>
+        <div style={{fontSize:"18px"}}><img src="https://i.imgur.com/tWQVbyr.png" style={{width:"35px",textAlign:"center"}}/></div>
+        <div style={{fontSize:"18px",textAlign:"center",fontWeight:"500"}}>Organize Site Visit</div>
+        </div>
+      <div style={{background:"#434343",width:"45%",height:"55px",margin:"0px",borderBottomRightRadius:"30px",color:"white",padding:"5px"}}><img src="https://i.imgur.com/hw5F4AO.png" style={{width:"35px"}}/> <span style={{fontSize:"20px",fontWeight:"500"}}>WhatsApp</span></div>
       </div>
       <div style={{marginTop:"60px",width:"100%",textAlign:"center",fontSize:"20px"}}>Pre-Register Here For Best Offers</div>
       <div style={{fontSize:"18px",fontWeight:"700",background:"white",boxShadow:"5px 10px #888888",padding:"10px",height:"40%",borderRadius:"20px",marginTop:"30px"}}>

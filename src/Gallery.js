@@ -29,7 +29,7 @@ const Gallery = () => {
     const [index, setIndex] = useState(-1);
 
     return (
-        <div style={{height:"90vh",marginTop:"20px",background:"white",width:"98%",margin:"10px",padding:"20px"}}>
+        <div className='gallery' >
             <h2 style={{textAlign:"center",textDecoration: "underline",marginBottom:'40px'}}>Gallery</h2>
             <PhotoAlbum photos={photos} layout="rows" targetRowHeight={300} onClick={({ index }) => setIndex(index)} />
 

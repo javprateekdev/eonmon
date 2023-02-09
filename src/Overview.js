@@ -3,23 +3,22 @@ import React from 'react'
 const Overview = () => {
   return (
     <div className='overview'>
-        <h2 style={{marginLeft:"20px",marginTop:"40px"}}> Fairfox EON</h2>
+        <h1 className='overviewheading' > Fairfox EON</h1>
     
    
- <h4 style={{marginLeft:"20px",marginTop:"10px"}}>Sector 140 A, Noida Expressway</h4>
-<p style={{padding:"20px",fontFamily:"poppins",color:"#54595f",fontSize:"20px",textTransform:"capitalize"}}>
+ <h5 style={{marginLeft:"10px",marginTop:"10px",textAlign:"center"}}><img src="https://i.imgur.com/DRaVMyS.png" style={{width:"30px"}}/>Sector 140 A, Noida Expressway</h5>
+<p style={{padding:"20px",fontFamily:"poppins",color:"black",fontSize:"16px",textTransform:"capitalize"}}>
 FairFox Codename EON is an upcoming commercial project strategically located in the heart of Noida adjoining Sushant golf City. Situated close to Ekana Stadium with
- distinguished neighbourhood of more than 10,000 residences ensures definite footfall. With efficient floor plans and effortless visibility of all shops, FairFox Codename EON is set to offer
- international shopping experience to attract upscale retail brands seeking premium space with modern facilities.
+ distinguished neighbourhood of more than 10,000 residences ensures definite footfall. 
 </p>
 
-<div style={{marginLeft:"20px",marginTop:"20px"}}>
-<ul>
-<li>Project of Fairfox: Noida’s Most Promising Developer</li>
-<li>2 Min. From Metro Station</li>
-<li>Huge Residential Catchment</li>
-<li>Total number of Floors – 15, Retail Efficiency – 87.79%</li>
-</ul>
+<div style={{marginTop:"20px",fontStyle:"24px",display:"block"}}>
+
+<div className='list' ><img src ="https://i.imgur.com/LOe2uzB.png" style={{width:"30px"}}/><span className='span'>Project of Fairfox: Noida’s Most Promising Developer</span></div>
+<div className='list'><img src ="https://i.imgur.com/LOe2uzB.png" style={{width:"30px"}}/><span  className='span'>2 Min. From Metro Station</span></div>
+<div className='list'><img src ="https://i.imgur.com/LOe2uzB.png" style={{width:"30px"}}/><span  className='span'>Huge Residential Catchment</span></div>
+<div className='list'><img src ="https://i.imgur.com/LOe2uzB.png" style={{width:"30px"}}/><span  className='span'>Total number of Floors – 15, Retail Efficiency – 87.79%</span></div>
+
 </div>
 
 

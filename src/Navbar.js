@@ -26,10 +26,12 @@ function NavScrollExample() {
             <Nav.Link href="#action2">Video</Nav.Link>
           
           </Nav>
-        
+         
         </Navbar.Collapse>
-        <div style={{background:"#9b18b7",marginRight:"12%",height:"40px",width:"14%",fontSize:"22px",padding:"5px",borderRadius:"5px",fontWeight:"700",color:"white",letterSpacing:"3px" }}>+0123456789</div>
+        
+        <div className='call'><img src="https://i.imgur.com/xSFzKA3.gif" style={{width:"40px",background:"#434343"}}/>+91-81-3030-6040</div>
       </Container>
+      
     </Navbar>
   
   );

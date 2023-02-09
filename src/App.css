@@ -9,8 +9,17 @@
   margin: 0px !important;
   width:100%
 }
+.pricebox{
+  width:98%;
+  margin:10px;
+  background:#ffffff;
+  height:40vh;
+  margin-top:10px;
+  padding:20p;
+}
+
 .main{
-  width:79%;
+  width:76%;
   background:#ffffff;
   height:100%;
   float:left;
@@ -19,13 +28,15 @@
   z-Index:10
 }
 .about{
-  width:"95%";
-  margin:"5px";
+  width:98%;
+  margin:5px;
   background:#ffffff;
-  height:"55vh";
-  font-family:"muli, Helvetica, Arial, sans-serif";
+  height:50vh;
+  font-family:poppins;
   box-shadow: rgb(23 44 82 / 10%) 2px 0px 10px 7px;
   border-radius: 20px;
+  color:black;
+  padding: 15px;
 }
 .banner{
   width:96%;
@@ -52,6 +63,7 @@
   box-shadow:rgb(22 70 157 / 43%) 2px 0px 10px 7px;
   
 }
+
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -68,8 +80,7 @@
   width:98%;
   margin:10px;
   background:#ffffff;
-  height:50vh;
-  margin-Top:50px;
+  height:55vh;
   font-Family:poppins;
   font-Size:20px;
   box-shadow: rgb(23 44 82 / 10%) 2px 0px 10px 7px;
@@ -89,7 +100,16 @@
   box-shadow:rgb(22 70 157 / 43%) 2px 0px 10px 7px;
   cursor: pointer;
 }
-
+.floorplan{
+  width:96%;
+  margin:10px;
+  background:#ffffff;
+  height:80vh;
+  margin-top: 10px;
+  padding:20px;
+   
+  
+}
 .pricetop{
   height:20%;
   border-top-right-radius:50%;
@@ -98,7 +118,6 @@
   font-size:24px;
   text-Align:center;
   padding:7px;
-  border-bottom: 1px solid #EBECF0;
   
 }
 a {
@@ -122,12 +141,72 @@ li {
   font-size:25px;
   background: transparent;
 }
+.gallery{
+  height:90vh;
+  margin-top:20px;
+  background:white;
+  width:98%;
+  margin:10px;
+  padding:20px;
+}
+.aboutlogo{
+  height:100px;
+  width:200px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+ width:15%
+    
+}
+.list{
+  margin-left:20px;
+  margin-top:20px;
+  font-Style:24px
+}
+.abouttext{
+  font-size:16px;
+  font-family:poppins;
+  color:#54595f;
+  font-size:20px;
+  text-transform:capitalize;
+  color:black
+}
+.span{
+  margin-left:20px;
+}
+.call{
+  margin-right:2%;
+  border:1px solid gray;
+  height:44px;
+  width:21%;
+  font-size:22px;
+  border-radius:5px;
+  font-weight:700;
+  color:white;
+  letter-spacing:1px;
+  background:rgb(22, 26, 4)
+}
 .nav-links {
   display: flex;
   justify-content: flex-end;
   width: 95%;
 }
-
+.overviewheading{
+  margin-Left:20px;
+  margin-top:10px;
+  padding-top:20px;
+  text-align: center;
+}
+.floorplanbutton{
+    width: 45%;
+    height: 15%;
+    position: relative;
+    bottom: 45%;
+    z-Index: 1000;
+    background: rgb(22 26 45);
+    left: 23%;
+    border-radius:20px;
+}
 .nav-links li {
   color:white;
   font-size: 15px;
@@ -135,6 +214,15 @@ li {
   margin: 0 5px;
   cursor: pointer;
   text-transform: capitalize;
+}
+.location{
+  width:96%;
+  background:#ffffff;
+  height:90vh;
+  margin-top:10px;
+  padding:15px;
+  box-shadow:rgb(23 44 82 / 10%) 2px 0px 10px 7px;
+  border-radius:45px
 }
 .hero {
   text-align: center;
@@ -153,43 +241,151 @@ button {
   font-size: 20px;
   background: none;
 }
+.footer{
+display:none
+
+}
+.pricebutton{
+background:rgb(22, 26, 45);
+color:white;
+width:40%;
+margin-top:5vh;
+margin-left:30%;
+height:40px;
+}
+
 @media (max-width: 768px) {
   
   .main{
     width:100%;
-    background:#dbe4e9;
+    background:#ffffff;
     height:100%;
     float:left;
-    margin-top:10px;
     position:relative;
     z-Index:10
   }
   .banner{
     width:100%;
-    height:50vh;
-    background:red;
-    padding:20px;
-    margin:10px;
-    margin-top:100px;
+    height:26vh;
+ 
   }
   .about{
-    width:"98%";
-    margin:"10px";
-    background:"#ffffff";
-    margin-top:"10px";
-    padding:"10px";
-    margin-bottom:"15px";
-    font-family:"muli, Helvetica, Arial, sans-serif"
-  }
-  .overview{
     width:98%;
     margin:10px;
     background:#ffffff;
-    height:65vh;
-    margin-Top:50px;
-    font-Family:poppins;
-    font-Size:14px;
+    margin-top:10px;
     padding:10px;
+    margin-bottom:15px;
+    font-family:poppins;
+    height:100%;
+  }
+  .overview{
+    width:95%;
+    margin:10px;
+    background:#ffffff;
+    height:80vh;
+    font-Family:poppins;
+    font-Size:12px;
+    padding:5px;
+  }
+  .aboutlogo{
+    height:100px;
+    width:200px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+   width:50%
+      
+  }
+  .pricecontainer:hover, .pricecontainer:active {
+    box-shadow:rgb(22 70 157 / 43%) 2px 0px 10px 7px;
+    cursor: pointer;
+    width:100%
+  }
+  .pricecheckbox:hover{
+    width: 100%;
+    height:280px;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow:rgb(22 70 157 / 43%) 2px 0px 10px 7px;
+    
+  }
+  .pricecontainer{
+    width:90%;
+    height:200px;
+    margin:15px;
+    border-top-right-radius:150px;
+    border-bottom-left-radius:150px;
+    border-width:90%;
+    background: #ffffff;
+    box-shadow:rgb(22 70 157 / 43%) 2px 0px 10px 7px;
+  }
+  .pricecheckbox{
+    width: 100%;
+    height:180px;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: rgb(22 70 157 / 43%) 2px 0px 10px 7px;
+  }
+  .floorplanbutton{
+    width: 55%;
+    height: 20%;
+    position: relative;
+    bottom: 45%;
+    z-Index: 1000;
+    background: rgb(22 26 45);
+    left: 23%;
+    border-radius:20px;
+    padding:1px;
+    text-align: center;
+    box-shadow: rgb(22 70 157 / 43%) 2px 0px 10px 7px;
+
+}
+  .footer{
+    margin-top: 0rem;
+    padding: 0rem;
+    background-color:#434343;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    height:4vh;
+    display:flex;
+    
+ 
+  }
+  .pricebutton{
+    background:rgb(22, 26, 45);
+    color:white;
+    width:40%;
+    margin-top:1vh;
+    margin-left:35%;
+    height:40px;
+    }
+  .span{
+    margin-left:10px;
+    font-Size:20px;
+    text-align: center;
+    font-weight: 600;
+    color:#2f3659;
+  }
+  .list{
+    margin-top:20px;
+    font-Size:28px
+  }
+  .call{
+   display:none;
+  }
+  .pricebox{
+    width:98%;
+    margin:10px;
+    background:#ffffff;
+    height:100%;
+    margin-top:10px;
+    padding:20p;
   }
   .navbar {
     display: flex;
@@ -203,7 +399,42 @@ button {
    background-color:#ffffff;
    width:100%;
   }
-  
+  .location{
+    width:95%;
+    background:#ffffff;
+    height:50vh;
+    margin-top:10px;
+    padding:15px;
+    box-shadow:rgb(23 44 82 / 10%) 2px 0px 10px 7px;
+    border-radius:45px;
+    margin:10px;
+  }
+  .floorplan{
+    width:96%;
+    margin:10px;
+    background:#ffffff;
+    height:100%;
+    margin-top: 10px;
+    padding:20px;
+     
+    
+  }
+  .gallery{
+    height:100%;
+    margin-top:20px;
+    background:white;
+    width:98%;
+    margin:10px;
+    padding:20px;
+  }
+  .abouttext{
+    font-size:px;
+    font-family:poppins;
+    color:#54595f;
+    font-size:20px;
+    text-transform:capitalize;
+    color:black
+  }
   .logo {
     display: flex;
     position: absolute;
@@ -238,6 +469,9 @@ button {
   .hero h1 {
     font-size: 50px;
   }
+  .pricecheckbox{
+    box-shadow:rgba(149, 164, 190, 0.43) 2px 0px 10px 7px;
+  }
 }
 @media screen and (max-width: 620px) {
  
@@ -252,16 +486,6 @@ button {
 
 
 
-.about{
-  width:"98%";
-  margin:"10px";
-  background:"#ffffff";
-  height:"45vh";
-  margin-top:"10px";
-  padding:"10px";
-  margin-bottom:"15px";
-  font-family:"muli, Helvetica, Arial, sans-serif"
-}
 
 
 

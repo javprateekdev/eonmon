@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Dialog from './Dialog';
+
 
 const Price = () => {
   return (
-    <div style={{width:"98%",margin:"10px",background:"#ffffff",height:"40vh",marginTop:"10px",padding:"20px"}}>
+    <div className='container' >
     <div style={{margin:"10px"}}>
     <div></div><h2 style={{textAlign:"center",textDecoration: "underline"}}>Price</h2>
       
@@ -10,14 +12,14 @@ const Price = () => {
     <div style={{display:"flex",flexWrap:"wrap"}}>
     <div className='pricecontainer' >
     
-        <div style={{height:"20%",borderTopRightRadius:"30px",borderTopLeftRadius:"30px",color:"black",fontSize:"24px",textAlign:"center",padding:"7px",borderBottom: "1px solid #EBECF0"}}>
+        <div style={{height:"20%",borderTopRightRadius:"30px",borderTopLeftRadius:"30px",color:"black",fontSize:"24px",textAlign:"center",padding:"7px"}}>
         <img src="https://i.imgur.com/bzTJjUa.png" style={{height:"40px",width:"40px",position:"relative",zIndex:"0"}} />
-      
+    
         <span>Office Space</span>
         </div>
     <div style={{fontSize:"22px",marginTop:"3vh",marginLeft:"35%"}}>Carpet Area:<br/>
     <b>&nbsp; 546 Sq.ft.</b></div>
-    <div><button style={{background:"rgb(22, 26, 45)",color:"white",width:"40%",marginTop:"5vh",marginLeft:"30%",height:"40px"}}>Check Price</button></div>
+    <div><button  className='pricebutton'><Dialog/></button></div>
         
     </div>
     <div className='pricecontainer'>
@@ -27,16 +29,16 @@ const Price = () => {
     </div>
     <div style={{fontSize:"22px",marginTop:"3vh",marginLeft:"35%"}}>Carpet Area:<br/>
     <b>&nbsp; 354 Sq.ft.</b></div>
-    <div><button style={{background:"rgb(22, 26, 45)",color:"white",width:"40%",marginTop:"5vh",marginLeft:"30%",height:"40px"}}>Check Price</button></div>
+    <div><button  className='pricebutton' ><Dialog/></button></div>
     </div>
     <div className='pricecontainer'>
-    <div style={{height:"20%",borderTopRightRadius:"30px",borderTopLeftRadius:"30px",color:"black",fontSize:"24px",textAlign:"center",padding:"7px",borderBottom: "1px solid #EBECF0"}}>
+    <div style={{height:"20%",borderTopRightRadius:"30px",borderTopLeftRadius:"30px",color:"black",fontSize:"24px",textAlign:"center",padding:"7px"}}>
     <img src="https://i.imgur.com/bzTJjUa.png" style={{height:"40px",width:"40px"}} />
     <span>Cube</span>
     </div>
     <div style={{fontSize:"22px",marginTop:"3vh",marginLeft:"35%"}}>Carpet Area:<br/>
     <b>&nbsp; 546 Sq.ft.</b></div>
-    <div><button style={{background:"rgb(22, 26, 45)",color:"white",width:"40%",marginTop:"5vh",marginLeft:"30%",height:"40px"}}>Check Price</button></div>
+    <div><button className='pricebutton'><Dialog/></button></div>
     </div>
     
     </div>
